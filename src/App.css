@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+}
+
+.quiz-app {
+  background: #fff;
+  width: 600px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.question-section {
+  text-align: center;
+}
+
+.heading {
+  margin: 10px 0;
+  color: #3498db;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.score-section {
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+.timer {
+  margin-top: 20px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.score {
+  margin-bottom: 20px;
+}
+
+.restart {
+  background-color: green;
+}
